@@ -1,4 +1,7 @@
-In order to use the tools you have to start SPM first so that cat12 is also in the path. 
+Prerquisites:
+- SPM12
+- CAT12
+- BrainAGE
 
 --------------------------------------------------------------
 BA-analysis with some predefined codes:
