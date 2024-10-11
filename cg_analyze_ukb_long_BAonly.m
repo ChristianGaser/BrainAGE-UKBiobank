@@ -115,11 +115,6 @@ switch abs(sel)
   case 18, codes = {'1757-2.0'}; name = {'Facial ageing'}; % 1 - younger, 2 - your age, 3 - older
 end
 
-% give warning that we already use that data for Eileen
-if 0 && (abs(sel) < 8 || abs(sel) == 18)
-  spm('alert','These are analyses that I prepared for Eileen and are only for demonstration')
-end
-
 num_in = [];
 n = numel(codes);
 ind_all = zeros(1,numel(header),'logical');
