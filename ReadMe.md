@@ -14,8 +14,8 @@ available (n=3046 after quality check).
 
 The tool to try BA is cg_analyze_UKB_long_BA_only. Because reading the huge xls-file 
 takes a lot of time you can set the arguments num and headerwith:  
-`xls_file = '../tables/ukb49261_long3046.xlsx';  
-[num, header] = cg_get_ukb_data(xls_file);`
+`xls_file = '../tables/ukb49261_long3046.xlsx';`   
+`[num, header] = cg_get_ukb_data(xls_file);`
 
 and then call:  
 `cg_analyze_ukb_long_BAonly(sel, num, header)`
