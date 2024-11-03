@@ -6,9 +6,9 @@ Data used are from a selected sub-sample of the UK Biobank where two time points
 available (n=3046 after quality check).
 
 ## Prerequisites:
-- SPM12
-- CAT12
-- BrainAGE
+- [SPM12](https://github.com/spm/spm12)
+- [CAT12](https://github.com/ChristianGaser/cat12)
+- [BrainAGE](https://github.com/ChristianGaser/BrainAGE)
 
 ## BA-analysis with some predefined codes:
 
